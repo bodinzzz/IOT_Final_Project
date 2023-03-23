@@ -60,32 +60,32 @@
 
 #### Step2 撰寫程式碼
 
-##### app.py : 主程式碼
-##### medicine_dispenser.py : 負責控制硬體
-##### qrcode_maker.py : 建立qrcode程式碼並上傳imgur取回https網址
-- 所需套件:
-> pip3 install qrcode
+- app.py : 主程式碼
+- medicine_dispenser.py : 負責控制硬體
+- qrcode_maker.py : 建立qrcode程式碼並上傳imgur取回https網址
+  - 所需套件:
+  > pip3 install qrcode
 
-> pip3 install imgurpython
+  > pip3 install imgurpython
 
-> pip3 install requests
+  > pip3 install requests
 
-> pip3 install pyimgur
-- 註冊帳號並取得client_id(側欄的register an application)
-官網連結：https://imgur.com/
-![](https://i.imgur.com/4WgFndE.png)
+  > pip3 install pyimgur
+  - 註冊帳號並取得client_id(側欄的register an application)
+  官網連結：https://imgur.com/
+  ![](https://i.imgur.com/4WgFndE.png)
 
-##### camera.py : 負責解碼Qrcode
-所需套件:
-> pip3 install libzbar0
-> pip3 install pyzbar
-> pip3 install opencv-python
+- camera.py : 負責解碼Qrcode
+  所需套件:
+  > pip3 install libzbar0
+  > pip3 install pyzbar
+  > pip3 install opencv-python
 
-##### sensor.py : 負責控制溫濕度感測器
-所需套件:
->pip3 install adafruit-circuitpython-dht
+- sensor.py : 負責控制溫濕度感測器
+  所需套件:
+  >pip3 install adafruit-circuitpython-dht
 
->sudo apt-get install libgpiod2
+  >sudo apt-get install libgpiod2
 
 #### DEMO影片連結:
 https://youtu.be/Xn7w7JaX70g
