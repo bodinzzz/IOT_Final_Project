@@ -60,9 +60,9 @@
 
 #### Step2 撰寫程式碼
 
-##### 主程式碼(app.py)
-##### 控制硬體程式碼(medicine_dispenser.py)
-##### 建立qrcode程式碼並上傳imgur取回https網址(qrcode_maker.py)
+##### app.py : 主程式碼
+##### medicine_dispenser.py : 負責控制硬體
+##### qrcode_maker.py : 建立qrcode程式碼並上傳imgur取回https網址
 - 所需套件:
 > pip3 install qrcode
 
@@ -75,14 +75,13 @@
 官網連結：https://imgur.com/
 ![](https://i.imgur.com/4WgFndE.png)
 
-##### 解碼程式碼(camera.py)
+##### camera.py : 負責解碼Qrcode
 所需套件:
 > pip3 install libzbar0
 > pip3 install pyzbar
 > pip3 install opencv-python
 
-##### 溫濕度感測器程式碼(sensor.py)
-
+##### sensor.py : 負責控制溫濕度感測器
 所需套件:
 >pip3 install adafruit-circuitpython-dht
 
