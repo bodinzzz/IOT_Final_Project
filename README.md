@@ -7,12 +7,12 @@
 
 此系統主要使用以下軟體與硬體：
 
-Flask：一個使用Python編寫的輕量級Web應用框架，用於建立Web伺服器以及與Line Bot進行互動。
-Line Bot：一個Line提供的聊天機器人平台，用於與使用者進行互動。
-Raspberry Pi 4：一種迷你電腦，可用於控制整個智慧分藥機。
-攝影鏡頭模組：一種攝影鏡頭，可用於掃描QRcode。
-Servo Motor：一種電機，用於控制藥盒開啟與關閉。
-DHT22 Temperature Humidity Sensor Module：一種溫濕度傳感器，用於監測環境溫度與濕度。
+- Flask：一個使用Python編寫的輕量級Web應用框架，用於建立Web伺服器以及與Line Bot進行互動。
+- Line Bot：一個Line提供的聊天機器人平台，用於與使用者進行互動。
+- Raspberry Pi 4：一種迷你電腦，可用於控制整個智慧分藥機。
+- 攝影鏡頭模組：一種攝影鏡頭，可用於掃描QRcode。
+- Servo Motor：一種電機，用於控制藥盒開啟與關閉。
+- DHT22 Temperature Humidity Sensor Module：一種溫濕度傳感器，用於監測環境溫度與濕度。
 
 #### 線路圖與裝置
 ![](https://i.imgur.com/lGm3PFZ.png)
